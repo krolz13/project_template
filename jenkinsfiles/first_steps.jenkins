@@ -20,7 +20,8 @@ pipeline {
             steps {
                 sh 'ssh andrii_toll88@35.195.54.252 \'uptime\''
             }
-        stage("Third step") {
+        }
+        stage("Second step") {
             steps {
                 sh 'ssh andrii_toll88@35.195.54.252 \'top\''
             }
