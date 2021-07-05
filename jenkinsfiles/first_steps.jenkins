@@ -23,7 +23,7 @@ pipeline {
         }
         stage("Third step") {
             steps {
-                sh 'ssh andrii_toll88@35.195.54.252 \'top\''
+                sh 'ssh andrii_toll88@35.195.54.252 \'dig\''
             }
         }
     }
